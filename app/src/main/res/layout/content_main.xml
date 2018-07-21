@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.jahangirnagar.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha=".5"
+        android:background="@drawable/home">
+
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/ms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bsc"
+            android:layout_marginTop="29dp"
+            android:background="#7E57C2"
+            android:layout_marginLeft="100dp"
+            android:text="Masters"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/bsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/ms"
+            android:layout_marginTop="151dp"
+            android:background="#42A5F5"
+            android:text="Honours"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+
+</RelativeLayout>
